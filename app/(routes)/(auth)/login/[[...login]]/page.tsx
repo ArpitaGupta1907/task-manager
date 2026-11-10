@@ -1,11 +1,11 @@
-import { SignUp } from "@clerk/nextjs";
-import { Suspense } from "react";
+import { SignIn } from '@clerk/nextjs';
+import { Suspense } from 'react';
 
-export default function SignUpPage() {
+export default function LoginPage() {
   return (
     <div className="flex min-h-screen items-center justify-center">
       <Suspense>
-        <SignUp />
+        <SignIn />
       </Suspense>
     </div>
   );
